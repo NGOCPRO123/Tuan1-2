@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<title>Bài 16</title>
+
+<body>
+
+
+   
+
+    <form>
+        <h1>
+            <p style=" text-align: left;"><b>Travel reservation form</b></p>
+        </h1>
+        <p>*Denotes madotory</p>
+        <tr>
+            <td><label for="FName">Full name*:</label></td><br>
+            <td><input type="text" name="txtFName" id="FName" size="20" tabindex="1" maxlength="250"></td>
+        </tr>
+        <br>
+        <tr>
+            <td><label for="email">Email address*:</label></td><br>
+            <td><input type="text" name="txtEmail" id="email" size="20" tabindex="1" maxlength="250"></td>
+        </tr>
+        <br>
+        <tr>
+            <td><label for="Select">Select Tour Packet:</label></td><br>
+
+            <td>
+                <input list="Goa" name="Goa">
+                <datalist id="Goa">
+                    <option value="Google">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+            </td>
+        </tr>
+        <br>
+
+        <tr>
+            <td>
+            <td><label for="Day"> Arival Day:</label></td><br>
+            <input type="date" id="arrival-date" name="arrival-date">
+            <br>
+
+        <tr>
+            <td>
+                <label for="num-of-person">Number of person</label> <br>
+                <input type="number" id="num-of-person" name="num-of-person" min="1" max="10" value="1">
+
+            </td>
+        </tr>
+        <br>
+
+        <tr>
+            <td>
+
+                <form>
+                    <p>
+            <td>
+                <label>What would you want to avail? *</p>
+                    <input type="radio" id="Boarding" name="avail" value="Boarding">
+                    <label for="Boarding">Boarding</label><br>
+                    <input type="radio" id="Fooding" name="avail" value="Fooding">
+                    <label for="Fooding">Fooding</label><br>
+                    <input type="radio" id="Sight seeing" name="avail" value="Sight seeing">
+                    <label for="Sight seeing">Sight seeing</label><br>
+
+
+    </form>
+    </td>
+
+    </tr>
+
+    <br>
+    <tr>
+        <td>
+            <form>
+                <label for="coupon-code">Discout Coupon Code </label> <br>
+                <input type="text" id="coupon-code" name="coupon-code">
+                <button type="submit">Appy</button>
+            </form>
+
+        </td>
+    </tr>
+    <br>
+    <tr>
+        <td>
+            <label>Terms and conditions *</p>
+                <input type="radio" id="I agree" name="lựa chọn" value="I agree">
+                <label for="I agree">I agree</label>
+                <input type="radio" id="I disagree" name="lựa chọn" value="I disagree">
+                <label for="I disagree">I disagree</label>
+        </td>
+    </tr>
+    <br>
+
+    <br>
+    <input type="submit" value="Complete reservation">
+
+
+    </td>
+    </tr>
+    </tr>
+    </form>
+
+</body>
+
+</html>
